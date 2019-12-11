@@ -1,18 +1,17 @@
 /**
- * 统计代码行数的工具, 每个文件的,总数的
+ * 读取工程目录中所有文件是否有console.log的字段
  */
 const fs = require('fs');
 const path = require('path');
-const readline = require('readline');
 // 读取的目录文件
 const filePath = path.resolve('../../../Yao/src');
 // 结果的文件
 const writeFilePath = './record.txt'
 
 // 读取文件
-readFileAndCountLine(filePath);
+readFile(filePath);
 
-function readFileAndCountLine(filePath) {
+function readFile(filePath) {
     fs.readdir(filePath, (err, files) => {
         // 其中files是文件名称的数组
         if (err) {
@@ -27,12 +26,19 @@ function readFileAndCountLine(filePath) {
                     throw err;
                 }
                 if (stats.isFile()) {
-                    // 如果是文件, 直接读取内容行数
-
+                    // 如果是文件, 直接读取内容
+                    let content = fs.readFileSync(fileDir, 'utf-8')
+                    const regex = /console.log/g;
+                    // 如果有console.log将内容记录下来,生成txt文件
+                    console.log(fileDir, regex.test(content));
+                    if (regex.test(content)) {
+                        record(fileDir);
+                    }
                 }
+
                 if (stats.isDirectory()) {
                     // 如果是目录,递归
-                    readFileAndCountLine(fileDir);
+                    readFile(fileDir);
                 }
             });
         });

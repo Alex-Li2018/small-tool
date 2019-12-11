@@ -4,7 +4,8 @@
     "description": "",
     "main": "statisticsCodeLine.js",
     "scripts": {
-        "no-console": "node src/statisticsCodeLine.js"
+        "no-console": "node src/no-console.js",
+        "line": "node src/statisticsCodeLine.js"
     },
     "repository": {
         "type": "git",
