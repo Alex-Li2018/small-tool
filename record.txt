@@ -1,0 +1,9 @@
+文件路径：C:\Yao\src\models\GlobalModel.js
+文件路径：C:\Yao\src\models\GStack.js
+文件路径：C:\Yao\src\plugin\analysis.js
+文件路径：C:\Yao\src\utils\IChat2.js
+文件路径：C:\Yao\src\vendor\wafer2-client-sdk\README.md
+文件路径：C:\Yao\src\plugin\monitor\lib\report.js
+文件路径：C:\Yao\src\plugin\monitor\lib\system.js
+文件路径：C:\Yao\src\utils\utilsKit\lib\wx_request.js
+文件路径：C:\Yao\src\subPackages\lottery\pages\loginIndex.wpy

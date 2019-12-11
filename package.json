@@ -1,0 +1,20 @@
+{
+    "name": "small-tool",
+    "version": "1.0.0",
+    "description": "",
+    "main": "statisticsCodeLine.js",
+    "scripts": {
+        "no-console": "node src/statisticsCodeLine.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alex-Li2018/small-tool.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Alex-Li2018/small-tool/issues"
+    },
+    "homepage": "https://github.com/Alex-Li2018/small-tool#readme"
+}
