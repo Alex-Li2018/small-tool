@@ -5,7 +5,8 @@
     "main": "statisticsCodeLine.js",
     "scripts": {
         "no-console": "node src/no-console.js",
-        "line": "node src/statisticsCodeLine.js"
+        "line": "node src/statisticsCodeLine.js",
+        "file-cli": "node src/file_CLI.js"
     },
     "repository": {
         "type": "git",
