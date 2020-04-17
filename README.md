@@ -14,5 +14,7 @@ js小型工具库，基于js语言总结工作中常用的函数,类的一个工
         |-- no-console.js 判断文件下是否有console
         |-- simplifyMutiPoints.js 点抽稀算法
         |-- statisticsCodeLine.js 统计代码行
+        |-- type.js 类型检测函数
+        |-- date.js 格式化时间的库
     |-- record.txt 测试文件
 
