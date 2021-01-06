@@ -16,5 +16,6 @@ js小型工具库，基于js语言总结工作中常用的函数,类的一个工
         |-- statisticsCodeLine.js 统计代码行
         |-- type.js 类型检测函数
         |-- date.js 格式化时间的库
+        |-- zip.js 压缩任意格式的文件
     |-- record.txt 测试文件
 
