@@ -2,8 +2,9 @@
 const axios = require('../../node_modules/axios');
 
 // axios的请求
-axios.defaults.baseURL = 'https://staging-xqb-admin-api.huanjutang.com/api/v3/';
-axios.defaults.headers.Authorization = 'Bearer f8446c8c80f2554fed25e65de4f2104c';
+// axios.defaults.baseURL = 'https://staging-xqb-admin-api.huanjutang.com/api/v3/';
+axios.defaults.baseURL = 'https://xqb-admin-api.huanjutang.com/api/v3/';
+axios.defaults.headers.Authorization = 'Bearer 24af18f02e0171d00ed6db13b33b53f9';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 
