@@ -1,6 +1,7 @@
 pages/index,首页
 pages/map/index,学区地图
-pages/parentCricle/index,家长圈
+pages/parentCricle/index,(家长圈---已删除)
+pages/house/index,找房
 pages/me/index,我的
 subPackages/activity/activityMainVenue,活动主会场
 subPackages/activity/activityLuckyBag,福袋活动
@@ -14,7 +15,8 @@ subPackages/home/hotInfo,文章列表页
 subPackages/home/hotAnswer,问答列表页
 subPackages/home/hotVillage,小区列表页
 subPackages/home/trainingOrganization,机构列表页
-subPackages/home/answerDeatil,问答详情
+subPackages/home/answerDeatil,(问答详情---单词错误)
+subPackages/home/answerDetail,问答详情
 subPackages/home/freePublishAnswer,问答提问页
 subPackages/home/lotteryResult,摇号结果页
 subPackages/home/accompanyingChildren,官方政策
@@ -23,7 +25,7 @@ subPackages/home/primaryToMiddle,小升初划片信息
 subPackages/home/dailyBroadcast,萱爸聊升学
 subPackages/home/topicList,话题列表页
 subPackages/home/topicDetail,话题详情页
-subPackages/home/authorDetail,文章作者详情页
+subPackages/home/authorDetail,(文章作者详情页/专家主页)
 subPackages/index/search,搜索页
 subPackages/index/locationSearch,学区位置搜索
 subPackages/index/schoolList,学校列表页
@@ -35,7 +37,7 @@ subPackages/me/accountException,账号异常
 subPackages/me/pages/collect,我的收藏
 subPackages/me/pages/authorize,用户授权
 subPackages/me/pages/bindPhone,绑定手机号
-subPackages/me/pages/aboutme,关于我们
+subPackages/me/pages/aboutme,(关于我们---已删除)
 subPackages/me/pages/copyrightNotice,版权声明
 subPackages/me/pages/privacyPolicy,用户隐私保护
 subPackages/me/pages/subscribe,我订阅的日程
@@ -58,10 +60,10 @@ subPackages/schoolDetail/kdenSchool,幼儿园详情页
 subPackages/schoolDetail/middleSchool,初中详情页
 subPackages/schoolDetail/highSchool,高中详情页
 subPackages/schoolDetail/schoolBigMap,小学地图页
-subPackages/schoolDetail/kdenSchoolBigMap,幼儿园地图页
-subPackages/schoolDetail/middleSchoolBigMap,中学地图页
+subPackages/schoolDetail/kdenSchoolBigMap,(幼儿园/小学/初中的周边2公里小区)地图页
+subPackages/schoolDetail/middleSchoolBigMap,(中学地图页---已删除)
 subPackages/schoolDetail/allPlanHouse,学校对应划片小区页
-subPackages/schoolDetail/allCorrespondingMiddle,小学对口初中页
+subPackages/schoolDetail/allCorrespondingMiddle,(小学对口初中页---已删除)
 subPackages/houseDetail/house,小区详情页
 subPackages/houseDetail/houseMap,小区地图页
 subPackages/houseDetail/houseCorrespondingSchool,小区对口学校
@@ -89,7 +91,7 @@ subPackages/trainingOrganization/courseDetail,线下课程详情
 subPackages/trainingOrganization/courseOnlineDetail,在线教育
 subPackages/trainingOrganization/assistCourse,助力者页面
 subPackages/trainingOrganization/shareCourse,分享者页面
-subPackages/tool/addGroup,加群页面
+subPackages/tool/addGroup,(加群页面---已删除)
 pages/im/index,微聊列表
 subPackages/activity/activityPersonalInfo,活动补充个人信息
 subPackages/activity/activityAwardList,活动奖品列表页
@@ -99,3 +101,15 @@ subPackages/webView/externalWebview,(积分落户/户口迁移)页面
 subPackages/webView/insideWebview,(随迁子女/小升初划片/每日播报/服务号/公众号)文章
 subPackages/me/callRecords,电话列表
 subPackages/im/chat,微聊详情页
+subPackages/uiDooring/uiDooring,ui配置页面
+subPackages/uiDooring/uiList,(学校/小区)合集列表页
+subPackages/schoolDetail/schoolbBaseInfo,学校基本信息
+subPackages/schoolDetail/counterpartSchool,(小学/初中)对口学校
+subPackages/schoolDetail/schoolScore,学校平分
+subPackages/schoolDetail/lotteryAnnouncement,幼儿园录取比例
+subPackages/schoolDetail/schoolRecruits,高中录取线
+subPackages/home/answerExpert,专家列表
+subPackages/compare/answerSelect,问答数据选择页面
+subPackages/webView/insideArticle,内部文章
+subPackages/im/acceptMessage,(收到的点赞/系统消息/收到的评论)
+subPackages/home/lotteryAnnouncements,摇中率

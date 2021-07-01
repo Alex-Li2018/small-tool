@@ -1,901 +1,946 @@
 {
-    "permission": {
-      "scope.userLocation": {
-        "desc": "获取地理位置"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地理位置"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "backgroundColor": "#fff"
       }
     },
-    "pages": [
+    {
+      "path": "pages/map/index",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom",
+        "disableScroll": false
+      }
+    },
+    {
+      "path": "pages/house/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "backgroundColor": "#fff"
+      }
+    },
+    {
+      "path": "pages/im/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": " 学区宝"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom",
+        "backgroundColor": "#fff"
+      }
+    }
+  ],
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 10000,
+    "uploadFile": 30000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#91A0B4",
+    "selectedColor": "#1478FF",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "height": "44px",
+    "list": [
       {
-        "path": "pages/index",
-        "style": {
-          "enablePullDownRefresh": true,
-          "navigationStyle": "custom",
-          "backgroundColor": "#fff"
-        }
+        "pagePath": "pages/index",
+        "text": "首页",
+        "iconPath": "static/images/icons/index.png",
+        "selectedIconPath": "static/images/icons/index-active.png",
+        "active": false
       },
       {
-        "path": "pages/map/index",
-        "style": {
-          "enablePullDownRefresh": false,
-          "navigationStyle": "custom",
-          "disableScroll": false
-        }
+        "pagePath": "pages/map/index",
+        "text": "学区地图",
+        "iconPath": "static/images/icons/map.png",
+        "selectedIconPath": "static/images/icons/map-active.png",
+        "active": false
       },
       {
-        "path": "pages/parentCricle/index",
-        "style": {
-          "enablePullDownRefresh": true,
-          "navigationStyle": "custom",
-          "disableScroll": false
-        }
+        "pagePath": "pages/house/index",
+        "text": "找房",
+        "iconPath": "static/images/icons/house.png",
+        "selectedIconPath": "static/images/icons/house-active.png",
+        "active": false
       },
       {
-        "path": "pages/im/index",
-        "style": {
-          "enablePullDownRefresh": true,
-          "navigationBarTitleText": " 学区宝"
-        }
+        "pagePath": "pages/im/index",
+        "text": "消息",
+        "iconPath": "static/images/icons/im.png",
+        "selectedIconPath": "static/images/icons/im-active.png",
+        "active": false
       },
       {
-        "path": "pages/me/index",
-        "style": {
-          "enablePullDownRefresh": true,
-          "navigationStyle": "custom",
-          "backgroundColor": "#fff"
-        }
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "static/images/icons/me.png",
+        "selectedIconPath": "static/images/icons/me-active.png",
+        "active": false
       }
     ],
-    "networkTimeout": {
-      "request": 60000,
-      "connectSocket": 10000,
-      "uploadFile": 30000,
-      "downloadFile": 10000
-    },
-    "tabBar": {
-      "color": "#91A0B4",
-      "selectedColor": "#1478FF",
-      "backgroundColor": "#fff",
-      "borderStyle": "white",
-      "height": "44px",
-      "list": [
+    "position": "bottom"
+  },
+  "subPackages": [
+    {
+      "root": "subPackages/activity",
+      "pages": [
         {
-          "pagePath": "pages/index",
-          "text": "首页",
-          "iconPath": "static/images/icons/index.png",
-          "selectedIconPath": "static/images/icons/index-active.png",
-          "active": false
-        },
-        {
-          "pagePath": "pages/map/index",
-          "text": "学区地图",
-          "iconPath": "static/images/icons/map.png",
-          "selectedIconPath": "static/images/icons/map-active.png",
-          "active": false
-        },
-        {
-          "pagePath": "pages/parentCricle/index",
-          "text": "家长圈",
-          "iconPath": "static/images/icons/parent-circle.png",
-          "selectedIconPath": "static/images/icons/parent-circle-active.png",
-          "active": false
-        },
-        {
-          "pagePath": "pages/im/index",
-          "text": "消息",
-          "iconPath": "static/images/icons/im.png",
-          "selectedIconPath": "static/images/icons/im-active.png",
-          "active": false
-        },
-        {
-          "pagePath": "pages/me/index",
-          "text": "我的",
-          "iconPath": "static/images/icons/me.png",
-          "selectedIconPath": "static/images/icons/me-active.png",
-          "active": false
-        }
-      ],
-      "position": "bottom"
-    },
-    "subPackages": [
-      {
-        "root": "subPackages/activity",
-        "pages": [
-          {
-            "path": "activityMainVenue",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "disableScroll": false,
-              "navigationBarTextStyle": "white"
-            }
-          },
-          {
-            "path": "activityPersonalInfo",
-            "style": {
-              "navigationBarBackgroundColor": "#009F61",
-              "navigationBarTextStyle": "white",
-              "enablePullDownRefresh": false,
-              "navigationBarTitleText": " 学区宝"
-            }
-          },
-          {
-            "path": "activityAwardList",
-            "style": {
-              "navigationBarBackgroundColor": "#009F61",
-              "navigationBarTextStyle": "white",
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": " 学区宝"
-            }
-          },
-          {
-            "path": "activityMap",
-            "style": {
-              "navigationBarBackgroundColor": "#ffffff",
-              "navigationBarTextStyle": "black",
-              "enablePullDownRefresh": false,
-              "navigationBarTitleText": " 学区宝"
-            }
-          },
-          {
-            "path": "activityLuckyBag",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "white"
-            }
-          },
-          {
-            "path": "activityEnd",
-            "style": {
-              "navigationBarTitleText": "学区宝",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "activityResult",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "white"
-            }
-          },
-          {
-            "path": "activityAward",
-            "style": {
-              "navigationBarBackgroundColor": "#36ABF0",
-              "navigationBarTextStyle": "white",
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": " 学区宝-我的奖励"
-            }
-          },
-          {
-            "path": "redEnvelopeLuckyDraw",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "white"
-            }
+          "path": "activityMainVenue",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "disableScroll": false,
+            "navigationBarTextStyle": "white"
           }
-        ]
-      },
-      {
-        "root": "subPackages/home",
-        "pages": [
-            {
-                "path": "qualificationInquiry",
-                "style": {
-                    "navigationBarTitleText": "学区宝-资格查询",
-                    "backgroundColor": "#fff",
-                    "enablePullDownRefresh": true
-                }
-            },
+        },
+        {
+          "path": "activityPersonalInfo",
+          "style": {
+            "navigationBarBackgroundColor": "#009F61",
+            "navigationBarTextStyle": "white",
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": " 学区宝"
+          }
+        },
+        {
+          "path": "activityAwardList",
+          "style": {
+            "navigationBarBackgroundColor": "#009F61",
+            "navigationBarTextStyle": "white",
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": " 学区宝"
+          }
+        },
+        {
+          "path": "activityMap",
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": " 学区宝"
+          }
+        },
+        {
+          "path": "activityLuckyBag",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "white"
+          }
+        },
+        {
+          "path": "activityEnd",
+          "style": {
+            "navigationBarTitleText": "学区宝",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "activityResult",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "white"
+          }
+        },
+        {
+          "path": "activityAward",
+          "style": {
+            "navigationBarBackgroundColor": "#36ABF0",
+            "navigationBarTextStyle": "white",
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": " 学区宝-我的奖励"
+          }
+        },
+        {
+          "path": "redEnvelopeLuckyDraw",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "white"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/home",
+      "pages": [
           {
-            "path": "hotSchool",
-            "style": {
-              "navigationBarTitleText": "学区宝-热门学校",
-              "backgroundColor": "#fff",
-              "navigationStyle": "custom",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "hotInfo",
-            "style": {
-              "navigationBarTitleText": "学区宝-文章",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "hotAnswer",
-            "style": {
-              "navigationBarTitleText": "学区宝-家长问答",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "hotVillage",
-            "style": {
-              "navigationBarTitleText": "学区宝-找小区",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "trainingOrganization",
-            "style": {
-              "navigationBarTitleText": "学区宝-找培训",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "answerDeatil",
-            "style": {
-              "navigationBarTitleText": "学区宝-问答详情",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "freePublishAnswer",
-            "style": {
-              "navigationBarTitleText": "学区宝-免费提问",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "lotteryResult",
-            "style": {
-              "navigationBarTitleText": "学区宝-摇号结果",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "accompanyingChildren",
-            "style": {
-              "navigationBarTitleText": "学区宝-官方政策",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "accompanyingChildrenDetail",
-            "style": {
-              "navigationBarTitleText": "学区宝-官方政策",
-              "backgroundColor": "#fff"
-            }
-          },
-            {
-              "path": "primaryToMiddle",
+              "path": "qualificationInquiry",
               "style": {
-                "backgroundColor": "#fff"
+                  "navigationBarTitleText": "学区宝-资格查询",
+                  "backgroundColor": "#fff",
+                  "enablePullDownRefresh": true
               }
-            },
+          },
+        {
+          "path": "hotSchool",
+          "style": {
+            "navigationBarTitleText": "学区宝-热门学校",
+            "backgroundColor": "#fff",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "hotInfo",
+          "style": {
+            "navigationBarTitleText": "学区宝-文章",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "hotAnswer",
+          "style": {
+            "navigationBarTitleText": "学区宝-家长问答",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "answerExpert",
+          "style": {
+            "navigationBarTitleText": "学区宝-专家列表",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "trainingOrganization",
+          "style": {
+            "navigationBarTitleText": "学区宝-找培训",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "answerDetail",
+          "style": {
+            "navigationBarTitleText": "学区宝-问答详情",
+            "backgroundColor": "#fff",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "freePublishAnswer",
+          "style": {
+            "navigationBarTitleText": "学区宝-免费提问",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "lotteryResult",
+          "style": {
+            "navigationBarTitleText": "学区宝-摇号结果",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "accompanyingChildren",
+          "style": {
+            "navigationBarTitleText": "学区宝-官方政策",
+            "backgroundColor": "#fff"
+          }
+        },
           {
-            "path": "dailyBroadcast",
+          "path": "lotteryAnnouncements",
+          "style": {
+            "navigationBarTitleText": "学区宝-摇中率",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "accompanyingChildrenDetail",
+          "style": {
+            "navigationBarTitleText": "学区宝-官方政策",
+            "backgroundColor": "#fff"
+          }
+        },
+          {
+            "path": "primaryToMiddle",
             "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝-宣爸聊升学"
+              "backgroundColor": "#fff"
             }
           },
-          {
-            "path": "topicList",
+        {
+          "path": "dailyBroadcast",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝-宣爸聊升学"
+          }
+        },
+        {
+          "path": "topicList",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+        {
+          "path": "topicDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "authorDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "salemanList",
+          "style": {
+            "navigationBarTitleText": "学区宝",
+              "enablePullDownRefresh": true,
+            "backgroundColor": "#fff"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/index",
+      "pages": [
+        {
+          "path": "search",
+          "style": {
+            "navigationBarTitleText": "学区宝-搜索",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "locationSearch",
+          "style": {
+            "navigationBarTitleText": "学区宝-搜索",
+            "backgroundColor": "#fff",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "schoolList",
+          "style": {
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#fff",
+            "navigationBarTitleText": "学区宝-找学校"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/webView",
+      "pages": [
+        {
+          "path": "webView"
+        },
+        {
+            "path": "externalWebview",
             "style": {
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+          "path": "activityWebRule",
+          "style": {
+            "navigationBarBackgroundColor": "#36ABF0",
+            "navigationBarTextStyle": "white",
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": " 学区宝"
+          }
+        },
+        {
+          "path": "insideWebview"
+        },
+        {
+          "path": "insideArticle"
+        }
+      ]
+    },
+    {
+      "root": "subPackages/me",
+      "pages": [
+          {
+              "path": "userCourses",
+              "style": {
+                  "backgroundColor": "#fff",
+                  "enablePullDownRefresh": true,
+                  "navigationBarTitleText": " 学区宝-我的课程"
+              }
+          },
+          {
+              "path": "callRecords",
+              "style": {
+                  "backgroundColor": "#fff",
+                  "enablePullDownRefresh": true,
+                  "navigationBarTitleText": " 学区宝"
+              }
+          },
+          {
+              "path": "salesmanSettled",
+              "style": {
+                  "backgroundColor": "#fff",
+                  "navigationBarTitleText": " 学区宝-经纪人入驻"
+              }
+          },
+          {
+              "path": "accountException",
+              "style": {
+                  "backgroundColor": "#fff",
+                  "navigationBarTitleText": "学区宝"
+              }
+          },
+        {
+          "path": "pages/collect",
+          "style": {
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝-我的收藏"
+          }
+        },
+        {
+          "path": "pages/authorize",
+          "style": {
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false,
+            "disableScroll": true,
+            "navigationBarTitleText": "学区宝-绑定手机号"
+          }
+        },
+        {
+          "path": "pages/bindPhone",
+          "style": {
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false,
+            "disableScroll": true,
+            "navigationBarTitleText": "学区宝-绑定手机号"
+          }
+        },
+        {
+          "path": "pages/copyrightNotice",
+          "style": {
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/privacyPolicy",
+          "style": {
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myAnswer",
+          "style": {
+            "navigationBarTitleText": "学区宝-我的提问",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/edcPhone",
+          "style": {
+            "navigationBarTitleText": "学区宝-教育局电话",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/taskCenter",
+          "style": {
+            "navigationBarTitleText": "学区宝-赚积分",
+            "navigationBarBackgroundColor": "#1478FF",
+            "enablePullDownRefresh": true,
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+        {
+          "path": "pages/comment",
+          "style": {
+            "navigationBarTitleText": "学区宝-我的评论",
+            "backgroundColor": "#FFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/creditsDetail",
+          "style": {
+            "navigationBarTitleText": "学区宝-我的积分",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/creditsRule",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "disableScroll": false,
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+        {
+          "path": "pages/teacherDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+          {
+          "path": "pages/salesmanDetail",
+          "style": {
               "enablePullDownRefresh": true,
               "navigationStyle": "custom",
               "navigationBarTextStyle": "#fff"
             }
-          },
-          {
-            "path": "topicDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "authorDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "salemanList",
-            "style": {
-              "navigationBarTitleText": "学区宝",
-              "backgroundColor": "#fff"
-            }
+        },
+        {
+          "path": "pages/teacherSettled",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
           }
-        ]
-      },
-      {
-        "root": "subPackages/index",
-        "pages": [
+        },
+        {
+          "path": "pages/trainingOrganizationSettled",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+        {
+          "path": "pages/addCourse",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
+          }
+        },
+        {
+          "path": "pages/noticeForEntry",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "学区宝-入驻"
+          }
+        },
+        {
+          "path": "pages/settledStatus",
+          "style": {
+            "navigationBarTitleText": "学区宝-提交",
+            "backgroundColor": "#fff",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/schoolDetail",
+      "pages": [
+        {
+          "path": "schoolRecruits",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝"
+          }
+        },
           {
-            "path": "search",
+            "path": "schoolbBaseInfo",
             "style": {
-              "navigationBarTitleText": "学区宝-搜索",
+              "enablePullDownRefresh": true,
+              "navigationBarTitleText": "学区宝"
+            }
+          },
+          {
+            "path": "counterpartSchool",
+            "style": {
+              "enablePullDownRefresh": true,
+              "navigationBarTitleText": "学区宝"
+            }
+          },
+          {
+              "path": "schoolScore",
+              "style": {
+                  "enablePullDownRefresh": true,
+                  "backgroundColor": "#fff",
+                  "navigationBarTitleText": "学区宝"
+              }
+          },
+          {
+              "path": "lotteryAnnouncement",
+              "style": {
+                  "enablePullDownRefresh": true,
+                  "backgroundColor": "#fff",
+                  "navigationBarTitleText": "学区宝"
+              }
+          },
+        {
+          "path": "answerDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#fff",
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "primarySchool",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "kdenSchool",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "middleSchool",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "highSchool",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "schoolBigMap",
+          "style": {
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "kdenSchoolBigMap",
+          "style": {
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "allPlanHouse",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/houseDetail",
+      "pages": [
+        {
+          "path": "house",
+          "style": {
+            "enablePullDownRefresh": true,
+              "navigationStyle": "custom",
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "houseMap",
+          "style": {
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "houseCorrespondingSchool",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "salesmanList",
+          "style": {
               "backgroundColor": "#fff",
               "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "locationSearch",
-            "style": {
-              "navigationBarTitleText": "学区宝-搜索",
-              "backgroundColor": "#fff",
-              "disableScroll": false
-            }
-          },
-          {
-            "path": "schoolList",
-            "style": {
-              "enablePullDownRefresh": true,
-              "backgroundColor": "#fff",
-              "navigationBarTitleText": "学区宝-找学校"
-            }
           }
-        ]
-      },
-      {
-        "root": "subPackages/webView",
-        "pages": [
+        },
+        {
+          "path": "answerDetail",
+          "style": {
+              "backgroundColor": "#fff",
+              "enablePullDownRefresh": true,
+              "navigationBarTitleText": "学区宝"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/comment",
+      "pages": [
+        {
+          "path": "comment",
+          "style": {
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "commentDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "commentList",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝"
+          }
+        },
+        {
+          "path": "commentRules",
+          "style": {
+            "navigationBarTitleText": "学区宝"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/schedule",
+      "pages": [
+        {
+          "path": "schedule",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝-入学日程"
+          }
+        },
+        {
+          "path": "eventDetail",
+          "style": {
+            "navigationBarTitleText": "学区宝-事件详情",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "scheduleDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "学区宝-日程详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/feedback",
+      "pages": [
+        {
+          "path": "feedback",
+          "style": {
+            "navigationBarTitleText": "学区宝-我要反馈",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/tool",
+      "pages": [
           {
-            "path": "webView"
-          },
-          {
-              "path": "externalWebview",
+              "path": "photos",
               "style": {
                   "enablePullDownRefresh": false
               }
           },
-          {
-            "path": "activityWebRule",
-            "style": {
-              "navigationBarBackgroundColor": "#36ABF0",
-              "navigationBarTextStyle": "white",
-              "enablePullDownRefresh": false,
-              "navigationBarTitleText": " 学区宝"
-            }
-          },
-          {
-            "path": "insideWebview"
+        {
+          "path": "poster",
+          "style": {
+            "navigationBarTitleText": "学区宝-海报",
+            "enablePullDownRefresh": false
           }
-        ]
-      },
-      {
-        "root": "subPackages/me",
-        "pages": [
-            {
-                "path": "userCourses",
-                "style": {
-                    "backgroundColor": "#fff",
-                    "enablePullDownRefresh": true,
-                    "navigationBarTitleText": " 学区宝-我的课程"
-                }
-            },
-            {
-                "path": "callRecords",
-                "style": {
-                    "backgroundColor": "#fff",
-                    "enablePullDownRefresh": true,
-                    "navigationBarTitleText": " 学区宝"
-                }
-            },
-            {
-                "path": "salesmanSettled",
-                "style": {
-                    "backgroundColor": "#fff",
-                    "navigationBarTitleText": " 学区宝-经纪人入驻"
-                }
-            },
-            {
-                "path": "accountException",
-                "style": {
-                    "backgroundColor": "#fff",
-                    "navigationBarTitleText": "学区宝"
-                }
-            },
-          {
-            "path": "pages/collect",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝-我的收藏"
-            }
-          },
-          {
-            "path": "pages/authorize",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false,
-              "disableScroll": true,
-              "navigationBarTitleText": "学区宝-绑定手机号"
-            }
-          },
-          {
-            "path": "pages/bindPhone",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false,
-              "disableScroll": true,
-              "navigationBarTitleText": "学区宝-绑定手机号"
-            }
-          },
-          {
-            "path": "pages/aboutme",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "pages/copyrightNotice",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "pages/privacyPolicy",
-            "style": {
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "pages/myAnswer",
-            "style": {
-              "navigationBarTitleText": "学区宝-我的提问",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "pages/edcPhone",
-            "style": {
-              "navigationBarTitleText": "学区宝-教育局电话",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "pages/taskCenter",
-            "style": {
-              "navigationBarTitleText": "学区宝-赚积分",
-              "navigationBarBackgroundColor": "#1478FF",
-              "enablePullDownRefresh": true,
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-          {
-            "path": "pages/comment",
-            "style": {
-              "navigationBarTitleText": "学区宝-我的评论",
-              "backgroundColor": "#FFF",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "pages/creditsDetail",
-            "style": {
-              "navigationBarTitleText": "学区宝-我的积分",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "pages/creditsRule",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "disableScroll": false,
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-          {
-            "path": "pages/teacherDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-            {
-            "path": "pages/salesmanDetail",
-            "style": {
-                "enablePullDownRefresh": true,
-                "navigationStyle": "custom",
-                "navigationBarTextStyle": "#fff"
-                }
-          },
-          {
-            "path": "pages/teacherSettled",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-          {
-            "path": "pages/trainingOrganizationSettled",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-          {
-            "path": "pages/addCourse",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "navigationBarTextStyle": "#fff"
-            }
-          },
-          {
-            "path": "pages/noticeForEntry",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationBarTextStyle": "black",
-              "navigationBarTitleText": "学区宝-入驻"
-            }
-          },
-          {
-            "path": "pages/settledStatus",
-            "style": {
-              "navigationBarTitleText": "学区宝-提交",
-              "backgroundColor": "#fff",
-              "enablePullDownRefresh": false
-            }
+        },
+        {
+          "path": "playVideo",
+          "style": {
+            "navigationBarTitleText": "学区宝",
+            "enablePullDownRefresh": false
           }
-        ]
-      },
-      {
-        "root": "subPackages/schoolDetail",
-        "pages": [
-          {
-            "path": "answerDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "backgroundColor": "#fff",
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "primarySchool",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "kdenSchool",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "middleSchool",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "highSchool",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "schoolBigMap",
-            "style": {
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "kdenSchoolBigMap",
-            "style": {
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "middleSchoolBigMap",
-            "style": {
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "allPlanHouse",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "allCorrespondingMiddle",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝"
-            }
+        },
+        {
+          "path": "verticalScreenVideo",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "disableScroll": false,
+            "navigationBarTextStyle": "white"
           }
-        ]
-      },
-      {
-        "root": "subPackages/houseDetail",
-        "pages": [
-          {
-            "path": "house",
-            "style": {
+        },
+        {
+          "path": "richEditor",
+          "style": {
+            "navigationBarTitleText": "学区宝",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/compare",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "detail",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "map",
+          "style": {
+            "navigationBarTitleText": "学区宝-对比地图",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "answerSelect",
+          "style": {
+            "navigationBarTitleText": "学区宝-添加",
+            "enablePullDownRefresh": true
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/trainingOrganization",
+      "pages": [
+        {
+          "path": "indexTO",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "teacherList",
+          "style": {
+              "backgroundColor": "#fff",
               "enablePullDownRefresh": true,
-                "navigationStyle": "custom",
               "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "houseMap",
+          }
+        },
+        {
+          "path": "courseDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "courseOnlineDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "assistCourse",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        },
+        {
+          "path": "shareCourse",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "backgroundColor": "#fff"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPackages/im",
+      "pages": [
+        {
+            "path": "chat",
             "style": {
-              "navigationBarTitleText": "学区宝"
+                "enablePullDownRefresh": false
             }
-          },
-          {
-            "path": "houseCorrespondingSchool",
+        }, {
+            "path": "acceptMessage",
             "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝"
+                "enablePullDownRefresh": false
             }
-          },
-          {
-            "path": "salesmanList",
+        }
+      ]
+    },
+    {
+      "root": "subPackages/uiDooring",
+      "pages": [
+        {
+            "path": "uiDooring",
             "style": {
-                "backgroundColor": "#fff",
                 "enablePullDownRefresh": true
             }
-          },
-          {
-            "path": "answerDetail",
-            "style": {
-                "backgroundColor": "#fff",
-                "enablePullDownRefresh": true,
-                "navigationBarTitleText": "学区宝"
-            }
+        },
+        {
+          "path": "uiList",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "#fff"
           }
-        ]
-      },
-      {
-        "root": "subPackages/comment",
-        "pages": [
-          {
-            "path": "comment",
-            "style": {
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "commentDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "commentList",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "commentRules",
-            "style": {
-              "navigationBarTitleText": "学区宝"
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/schedule",
-        "pages": [
-          {
-            "path": "schedule",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝-入学日程"
-            }
-          },
-          {
-            "path": "eventDetail",
-            "style": {
-              "navigationBarTitleText": "学区宝-事件详情",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "scheduleDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationBarTitleText": "学区宝-日程详情"
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/feedback",
-        "pages": [
-          {
-            "path": "feedback",
-            "style": {
-              "navigationBarTitleText": "学区宝-我要反馈",
-              "enablePullDownRefresh": false
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/tool",
-        "pages": [
-            {
-                "path": "photos",
-                "style": {
-                    "enablePullDownRefresh": false
-                }
-            },
-          {
-            "path": "poster",
-            "style": {
-              "navigationBarTitleText": "学区宝-海报",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "playVideo",
-            "style": {
-              "navigationBarTitleText": "学区宝",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "verticalScreenVideo",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "disableScroll": false,
-              "navigationBarTextStyle": "white"
-            }
-          },
-          {
-            "path": "richEditor",
-            "style": {
-              "navigationBarTitleText": "学区宝",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "addGroup",
-            "style": {
-              "enablePullDownRefresh": false,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff",
-              "navigationBarTextStyle": "white",
-              "mp-weixin": {
-                "usingComponents": {
-                  "addgroud": "plugin://chatGroupPlugin/cell"
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/compare",
-        "pages": [
-          {
-            "path": "index",
-            "style": {
-              "navigationBarTitleText": "",
-              "enablePullDownRefresh": true
-            }
-          },
-          {
-            "path": "detail",
-            "style": {
-              "navigationBarTitleText": "",
-              "enablePullDownRefresh": false
-            }
-          },
-          {
-            "path": "map",
-            "style": {
-              "navigationBarTitleText": "学区宝-对比地图",
-              "enablePullDownRefresh": false
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/trainingOrganization",
-        "pages": [
-          {
-            "path": "indexTO",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "teacherList",
-            "style": {
-                "backgroundColor": "#fff",
-                "enablePullDownRefresh": true,
-                "navigationBarTitleText": "学区宝"
-            }
-          },
-          {
-            "path": "courseDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "courseOnlineDetail",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "assistCourse",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          },
-          {
-            "path": "shareCourse",
-            "style": {
-              "enablePullDownRefresh": true,
-              "navigationStyle": "custom",
-              "backgroundColor": "#fff"
-            }
-          }
-        ]
-      },
-      {
-        "root": "subPackages/im",
-        "pages": [
-          {
-              "path": "chat",
-              "style": {
-                  "enablePullDownRefresh": false
-              }
-          }
-        ]
-      }
-    ],
-    "globalStyle": {
-      "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "学区宝",
-      "navigationBarBackgroundColor": "#fff",
-      "backgroundColor": "#fff"
+        }
+      ]
     }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "学区宝",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
   }
-  
+}

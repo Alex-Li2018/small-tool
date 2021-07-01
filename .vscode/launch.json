@@ -7,7 +7,7 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "node",
+            "name": "index",
             "skipFiles": [
                 "<node_internals>/**"
             ],

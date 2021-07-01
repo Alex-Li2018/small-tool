@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const pagesObj = require('./pages.json');
 const http = require('./uploadPages');
-const shareSetting = require('./shareSetting');
+const shareSetting = require('./shareOnline.json');
 
 let firstLoad = true; // 是否是第一次导入
 let pageOrigin = [];
@@ -23,14 +23,13 @@ fs.readFile(path.resolve(__dirname, 'pathMap.csv'), 'utf-8', (err, data) => {
     const newPages = diffPages(pageOrigin);
 
     if (firstLoad) {
-        writeAPI(pageOrigin)
+        writeAPI(newPages)
     } else {
         newPages.length && addNewPagesMap(newPages);
     }
 });
 
 function diffPages(pageOrigin) {
-    console.log(pageOrigin);
     const currentPages = getCurrentPages();
     pageOrigin.forEach(item => {
         currentPages.forEach(page => {
@@ -41,7 +40,7 @@ function diffPages(pageOrigin) {
     });
     // 筛选出没有页面title的内容
     const noTitlePage = currentPages.filter(item => item.title === '');
-    return noTitlePage;
+    return currentPages;
 }
 
 // 添加新的页面
@@ -120,7 +119,9 @@ function writeAPI(newPages) {
             redirect_url: '',
             thumb: '',
             description: '',
-            status: 0
+            status: 0,
+            city_id: 330100
+            // city_id: 510100
         });
     })
 

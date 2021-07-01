@@ -1,0 +1,664 @@
+[
+		{
+			"share_content": "",
+			"page_url": "subPackages/compare/answerSelect",
+			"share_url": "subPackages/compare/answerSelect",
+			"image_url": "",
+			"title": "问答数据选择页面"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/home/answerExpert",
+			"share_url": "subPackages/home/answerExpert",
+			"image_url": "",
+			"title": "专家列表"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/schoolRecruits",
+			"share_url": "subPackages/schoolDetail/schoolRecruits?id=${id}",
+			"image_url": "",
+			"title": "高中录取线"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/lotteryAnnouncement",
+			"share_url": "subPackages/schoolDetail/lotteryAnnouncement?id=${id}",
+			"image_url": "",
+			"title": "幼儿园录取比例"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/schoolScore",
+			"share_url": "subPackages/schoolDetail/schoolScore?id=${id}",
+			"image_url": "",
+			"title": "学校评分"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/counterpartSchool",
+			"share_url": "subPackages/schoolDetail/counterpartSchool?id=${schoolId}",
+			"image_url": "",
+			"title": "(小学/初中)对口学校"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/schoolbBaseInfo",
+			"share_url": "subPackages/schoolDetail/schoolbBaseInfo?id=${schoolId}",
+			"image_url": "",
+			"title": "学校基本信息"
+		},{
+			"share_content": "成都市各区热门公立学校榜单！（5万人收藏）",
+			"page_url": "subPackages/uiDooring/uiList",
+			"share_url": "subPackages/uiDooring/uiList?type=${type}",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/06/25/d8e41eb6e2628c280ba8819de2e83df9.png",
+			"title": "集列表页(学校/小区)合"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/uiDooring/uiDooring",
+			"share_url": "subPackages/uiDooring/uiDooring?id=${id}",
+			"image_url": "",
+			"title": "UI配置页面"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/webView/insideWebview",
+			"share_url": "subPackages/me/pages/taskCenter",
+			"image_url": "",
+			"title": "(随迁子女/小升初划片/每日播报/服务号/公众号)文章"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/im/chat",
+			"share_url": "",
+			"image_url": "",
+			"title": "微聊详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/playVideo",
+			"share_url": "",
+			"image_url": "",
+			"title": "视频播放页面"
+		},{
+			"share_content": "学区宝-${detailData.name}",
+			"page_url": "subPackages/schoolDetail/allCorrespondingMiddle",
+			"share_url": "subPackages/schoolDetail/allCorrespondingMiddle",
+			"image_url": "",
+			"title": "小学对口初中页"
+		},{
+			"share_content": "学区宝-${baseInfo.school_name}",
+			"page_url": "subPackages/schoolDetail/kdenSchoolBigMap",
+			"share_url": "subPackages/schoolDetail/kdenSchoolBigMap?school_id=${baseInfo.school_id}",
+			"image_url": "",
+			"title": "幼儿园地图页"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "subPackages/compare/detail",
+			"share_url": "subPackages/compare/detail",
+			"image_url": "",
+			"title": "对比详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/trainingOrganization/teacherList",
+			"share_url": "",
+			"image_url": "",
+			"title": "老师列表"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/myAnswer",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的问答"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/trainingOrganization/assistCourse",
+			"share_url": "",
+			"image_url": "",
+			"title": "助力者页面"
+		},{
+			"share_content": "",
+			"page_url": "pages/im/index",
+			"share_url": "",
+			"image_url": "",
+			"title": "微聊列表"
+		},{
+			"share_content": "订阅这个入学日历，再也不会错过时间",
+			"page_url": "subPackages/schedule/eventDetail",
+			"share_url": "subPackages/schedule/eventDetail?id=${eventId}&schedule_id=${scheduleId}",
+			"image_url": "https://imgcdn.huanjutang.com/image/2020/05/23/23bc191af05f79557043fe0d1850daaa.png",
+			"title": "事件详情"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/trainingOrganization/shareCourse",
+			"share_url": "",
+			"image_url": "",
+			"title": "分享者页面"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/webView/externalWebview",
+			"share_url": "",
+			"image_url": "",
+			"title": "(积分落户/户口迁移)页面"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "subPackages/me/pages/taskCenter",
+			"share_url": "subPackages/me/pages/taskCenter",
+			"image_url": "",
+			"title": "任务中心"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/collect",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的收藏"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/feedback/feedback",
+			"share_url": "",
+			"image_url": "",
+			"title": "反馈"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/comment/commentRules",
+			"share_url": "",
+			"image_url": "",
+			"title": "评论规则页"
+		},{
+			"share_content": "限时抢购${courseDetail.name}！",
+			"page_url": "subPackages/trainingOrganization/courseDetail",
+			"share_url": "subPackages/trainingOrganization/courseDetail?id=${courseId}",
+			"image_url": "",
+			"title": "线下课程详情"
+		},{
+			"share_content": "推荐给你这个课程：${courseDetail.name}",
+			"page_url": "subPackages/trainingOrganization/courseOnlineDetail",
+			"share_url": "subPackages/trainingOrganization/courseOnlineDetail?id=${courseDetail.id}",
+			"image_url": "",
+			"title": "在线教育"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/home/salemanList",
+			"share_url": "",
+			"image_url": "",
+			"title": "置业顾问列表页"
+		},{
+			"share_content": "快来看一看，这就是${detail.name}机构",
+			"page_url": "subPackages/trainingOrganization/indexTO",
+			"share_url": "subPackages/trainingOrganization/indexTO?id=${id}",
+			"image_url": "",
+			"title": "机构详情"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityPersonalInfo",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动补充个人信息"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityAwardList",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动奖品列表页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/compare/index",
+			"share_url": "",
+			"image_url": "",
+			"title": "对比"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/callRecords",
+			"share_url": "",
+			"image_url": "",
+			"title": "电话列表"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/comment/commentDetail",
+			"share_url": "",
+			"image_url": "",
+			"title": "评论详情页"
+		},{
+			"share_content": "【${baseInfo.relation_name}】的评论 一起加入我们的讨论呗!",
+			"page_url": "subPackages/comment/commentList",
+			"share_url": "subPackages/comment/commentList?relation_id=${baseInfo.relation_id}&relation_name=${baseInfo.relation_name}&relation_type=${baseInfo.relation_type}",
+			"image_url": "",
+			"title": "评论列表页"
+		},{
+			"share_content": "订阅这个入学日历，再也不会错过时间",
+			"page_url": "subPackages/schedule/scheduleDetail",
+			"share_url": "subPackages/schedule/scheduleDetail?id=${id}",
+			"image_url": "https://imgcdn.huanjutang.com/image/2020/05/23/23bc191af05f79557043fe0d1850daaa.png",
+			"title": "日程详情"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/poster",
+			"share_url": "",
+			"image_url": "",
+			"title": "(老师/经纪人)海报"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/compare/map",
+			"share_url": "",
+			"image_url": "",
+			"title": "对比地图"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/photos",
+			"share_url": "",
+			"image_url": "",
+			"title": "(学校/小区/机构)相册"
+		},{
+			"share_content": "学区房经纪人、培训机构老师入驻申请",
+			"page_url": "subPackages/me/pages/noticeForEntry",
+			"share_url": "subPackages/me/pages/noticeForEntry?share=1",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/05/08/0b4c7f9b76ed2d89bc0f9dad47695685.png",
+			"title": "入驻须知"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/houseDetail/salesmanList",
+			"share_url": "",
+			"image_url": "",
+			"title": "小区入驻经纪人列表"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/aboutme",
+			"share_url": "",
+			"image_url": "",
+			"title": "关于我们"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/addCourse",
+			"share_url": "",
+			"image_url": "",
+			"title": "添加课程"
+		},{
+			"share_content": "学区宝-${baseInfo.school_name}",
+			"page_url": "subPackages/schoolDetail/schoolBigMap",
+			"share_url": "subPackages/schoolDetail/schoolBigMap?school_id=${baseInfo.school_id}",
+			"image_url": "",
+			"title": "小学地图页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityMap",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动地图页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/houseDetail/answerDetail",
+			"share_url": "",
+			"image_url": "",
+			"title": "小区问答列表"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/settledStatus",
+			"share_url": "",
+			"image_url": "",
+			"title": "(老师/经纪人)入驻状态"
+		},{
+			"share_content": "学区宝-${schoolDetail.name}",
+			"page_url": "subPackages/schoolDetail/primarySchool",
+			"share_url": "subPackages/schoolDetail/primarySchool?school_id=${schoolDetail.id}",
+			"image_url": "",
+			"title": "小学详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/richEditor",
+			"share_url": "",
+			"image_url": "",
+			"title": "富文本编辑器"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/addGroup",
+			"share_url": "",
+			"image_url": "",
+			"title": "加群页面"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/trainingOrganizationSettled",
+			"share_url": "",
+			"image_url": "",
+			"title": "培训机构入驻"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/allPlanHouse",
+			"share_url": "subPackages/schoolDetail/allPlanHouse",
+			"image_url": "",
+			"title": "学校对应划片小区页"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "subPackages/me/pages/teacherSettled",
+			"share_url": "subPackages/me/pages/teacherSettled?share=1",
+			"image_url": "",
+			"title": "老师入驻"
+		},{
+			"share_content": "订阅这个入学日历，再也不会错过时间",
+			"page_url": "subPackages/schedule/schedule",
+			"share_url": "subPackages/schedule/schedule",
+			"image_url": "https://imgcdn.huanjutang.com/image/2020/05/23/23bc191af05f79557043fe0d1850daaa.png",
+			"title": "我的日程"
+		},{
+			"share_content": "学区宝-${detail.name}",
+			"page_url": "subPackages/houseDetail/house",
+			"share_url": "subPackages/houseDetail/house?house_id=${detail.id}",
+			"image_url": "",
+			"title": "小区详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/creditsRule",
+			"share_url": "",
+			"image_url": "",
+			"title": "积分规则"
+		},{
+			"share_content": "学区宝-${schoolDetail.name}",
+			"page_url": "subPackages/schoolDetail/middleSchool",
+			"share_url": "subPackages/schoolDetail/middleSchool?school_id=${schoolDetail.id}",
+			"image_url": "",
+			"title": "初中详情页"
+		},{
+			"share_content": "快来看看，${baseInfo.name}周围的学校情况吧!",
+			"page_url": "subPackages/houseDetail/houseMap",
+			"share_url": "subPackages/houseDetail/houseMap?house_id=${baseInfo.house_id}&school_type=${baseInfo.school_type}&name=${baseInfo.name}&longitude=${baseInfo.longitude}&latitude=${baseInfo.latitude}",
+			"image_url": "",
+			"title": "小区地图页"
+		},{
+			"share_content": "学区宝-${schoolDetail.name}",
+			"page_url": "subPackages/schoolDetail/highSchool",
+			"share_url": "subPackages/schoolDetail/highSchool?school_id=${schoolDetail.id}",
+			"image_url": "",
+			"title": "高中详情页"
+		},{
+			"share_content": "推荐给你：学区经纪人${info.name}",
+			"page_url": "subPackages/me/pages/salesmanDetail",
+			"share_url": "subPackages/me/pages/salesmanDetail?id=${id}",
+			"image_url": "",
+			"title": "经纪人详情页"
+		},{
+			"share_content": "点击进入，立刻为孩子挑选兴趣班，辅导班",
+			"page_url": "subPackages/home/trainingOrganization",
+			"share_url": "subPackages/home/trainingOrganization",
+			"image_url": "",
+			"title": "机构列表页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/tool/verticalScreenVideo",
+			"share_url": "",
+			"image_url": "",
+			"title": "家长圈视频"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/creditsDetail",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的积分"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/userCourses",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的课程"
+		},{
+			"share_content": "成都区县教育局电话汇总！",
+			"page_url": "subPackages/me/pages/edcPhone",
+			"share_url": "subPackages/me/pages/edcPhone",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/05/08/258761527946a989c303261a3d4aba6f.png",
+			"title": "教育局电话"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/comment",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的评论"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/houseDetail/houseCorrespondingSchool",
+			"share_url": "",
+			"image_url": "",
+			"title": "小区对口学校"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/privacyPolicy",
+			"share_url": "",
+			"image_url": "",
+			"title": "用户隐私保护"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/subscribe",
+			"share_url": "",
+			"image_url": "",
+			"title": "我订阅的日程"
+		},{
+			"share_content": "学区宝·${CITY_NAME}公立小学40强！",
+			"page_url": "subPackages/home/hotSchool",
+			"share_url": "subPackages/home/hotSchool",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/06/21/139a089d4a577319acdb797a1bd32edf.png",
+			"title": "热门学校(40强)"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "subPackages/me/salesmanSettled",
+			"share_url": "subPackages/me/salesmanSettled?share=1",
+			"image_url": "",
+			"title": "我要入驻"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityMainVenue",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动主会场"
+		},{
+			"share_content": "学区宝-${schoolDetail.name}",
+			"page_url": "subPackages/schoolDetail/kdenSchool",
+			"share_url": "subPackages/schoolDetail/kdenSchool?school_id=${schoolDetail.id}",
+			"image_url": "",
+			"title": "幼儿园详情页"
+		},{
+			"share_content": "学区宝-${baseInfo.school_name}",
+			"page_url": "subPackages/schoolDetail/middleSchoolBigMap",
+			"share_url": "subPackages/schoolDetail/middleSchoolBigMap?school_id=${baseInfo.school_id}",
+			"image_url": "",
+			"title": "中学地图页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/home/topicList",
+			"share_url": "subPackages/home/topicList",
+			"image_url": "",
+			"title": "话题列表页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/home/lotteryResult",
+			"share_url": "",
+			"image_url": "",
+			"title": "摇号结果页"
+		},{
+			"share_content": "学区宝作者${author.name}，立即点击查看",
+			"page_url": "subPackages/home/authorDetail",
+			"share_url": "subPackages/home/authorDetail?id=${id}",
+			"image_url": "",
+			"title": "文章作者详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/home/freePublishAnswer",
+			"share_url": "",
+			"image_url": "",
+			"title": "问答提问页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/authorize",
+			"share_url": "",
+			"image_url": "",
+			"title": "用户授权"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/schoolDetail/answerDetail",
+			"share_url": "",
+			"image_url": "",
+			"title": "学校问答详情页"
+		},{
+			"share_content": "我在这里评价",
+			"page_url": "subPackages/comment/comment",
+			"share_url": "subPackages/comment/comment?relation_name=${title}&relation_id=${relation_id}&relation_type=${relation_type}",
+			"image_url": "",
+			"title": "评论内容"
+		},{
+			"share_content": "选学区、查学校，就用学区宝！",
+			"page_url": "pages/index",
+			"share_url": "pages/index",
+			"image_url": "",
+			"title": "首页"
+		},{
+			"share_content": "有升学问题，上学区宝搜一搜🔍",
+			"page_url": "subPackages/home/hotAnswer",
+			"share_url": "subPackages/home/hotAnswer",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/06/03/a858b945697429c3c56ef52decc75a88.png",
+			"title": "问答列表页"
+		},{
+			"share_content": "发现一个专属家长的内容圈子，分享给你",
+			"page_url": "pages/parentCricle/index",
+			"share_url": "pages/parentCricle/index",
+			"image_url": "",
+			"title": "家长圈"
+		},{
+			"share_content": "听每日播报，最新资讯不错过~",
+			"page_url": "subPackages/home/dailyBroadcast",
+			"share_url": "subPackages/home/dailyBroadcast",
+			"image_url": "",
+			"title": "萱爸聊升学"
+		},{
+			"share_content": "推荐给你：${info.institution.name}机构的${info.name}老师",
+			"page_url": "subPackages/me/pages/teacherDetail",
+			"share_url": "subPackages/me/pages/teacherDetail?id=${id}",
+			"image_url": "",
+			"title": "老师详情页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/copyrightNotice",
+			"share_url": "",
+			"image_url": "",
+			"title": "版权声明"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/index/search",
+			"share_url": "",
+			"image_url": "",
+			"title": "搜索页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/index/locationSearch",
+			"share_url": "",
+			"image_url": "",
+			"title": "学区位置搜索"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "subPackages/home/answerDeatil",
+			"share_url": "subPackages/home/answerDeatil?id=${id}",
+			"image_url": "",
+			"title": "问答详情"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/redEnvelopeLuckyDraw",
+			"share_url": "",
+			"image_url": "",
+			"title": "拼手气红包"
+		},{
+			"share_content": "${CITY_NAME}各区招生政策，速看",
+			"page_url": "subPackages/home/accompanyingChildrenDetail",
+			"share_url": "subPackages/home/accompanyingChildrenDetail?title_id=${titleId}",
+			"image_url": "",
+			"title": "官方政策详情"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityResult",
+			"share_url": "",
+			"image_url": "",
+			"title": "福袋抽奖结果"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityAward",
+			"share_url": "",
+			"image_url": "",
+			"title": "我的奖励"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/accountException",
+			"share_url": "",
+			"image_url": "",
+			"title": "账号异常"
+		},{
+			"share_content": "周边最新学区房信息！",
+			"page_url": "subPackages/home/hotVillage",
+			"share_url": "subPackages/home/hotVillage",
+			"image_url": "",
+			"title": "小区列表页"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/me/pages/bindPhone",
+			"share_url": "",
+			"image_url": "",
+			"title": "绑定手机号"
+		},{
+			"share_content": "学校好不好,就用学区宝",
+			"page_url": "pages/me/index",
+			"share_url": "pages/me/index",
+			"image_url": "https://imgcdn.huanjutang.com/image/2020/07/30/813601ce7d9665de0155989bbe8d3899.png",
+			"title": "我的"
+		},{
+			"share_content": "${articleAuthor.title}",
+			"page_url": "subPackages/webView/webView",
+			"share_url": "subPackages/webView/webView?id=${articleId}",
+			"image_url": "",
+			"title": "文章详情页"
+		},{
+			"share_content": "${CITY_NAME}最全学校列表，分享给你~",
+			"page_url": "subPackages/index/schoolList",
+			"share_url": "subPackages/index/schoolList",
+			"image_url": "",
+			"title": "学校列表页"
+		},{
+			"share_content": "${CITY_NAME}最新的教育咨询，立即点击查看",
+			"page_url": "subPackages/home/hotInfo",
+			"share_url": "subPackages/home/hotInfo",
+			"image_url": "",
+			"title": "文章列表页"
+		},{
+			"share_content": "孩子入学、落户资格查询",
+			"page_url": "subPackages/home/qualificationInquiry",
+			"share_url": "subPackages/home/qualificationInquiry",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/05/08/4b1ef24a2eccc7e65ec0d60de0ada057.png",
+			"title": "资格查询"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/webView/activityWebRule",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动规则h5"
+		},{
+			"share_content": "${detail.title}",
+			"page_url": "subPackages/home/topicDetail",
+			"share_url": "subPackages/home/topicDetail?id=${id}",
+			"image_url": "",
+			"title": "话题详情页"
+		},{
+			"share_content": "2021年杭州各区最新学校划片信息，点击查看",
+			"page_url": "subPackages/home/primaryToMiddle",
+			"share_url": "subPackages/home/primaryToMiddle?type=${params.category}&city_id=${params.city_id}",
+			"image_url": "",
+			"title": "小升初划片信息"
+		},{
+			"share_content": "👇查查你家对口小学实力咋样？",
+			"page_url": "pages/map/index",
+			"share_url": "pages/map/index",
+			"image_url": "https://imgcdn.huanjutang.com/image/2021/06/22/994691d50aafadbd341f50b9632bd182.jpg",
+			"title": "学区地图"
+		},{
+			"share_content": "${CITY_NAME}市2021入学招生政策合集！",
+			"page_url": "subPackages/home/accompanyingChildren",
+			"share_url": "subPackages/home/accompanyingChildren",
+			"image_url": "",
+			"title": "官方政策"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityEnd",
+			"share_url": "",
+			"image_url": "",
+			"title": "活动结束"
+		},{
+			"share_content": "",
+			"page_url": "subPackages/activity/activityLuckyBag",
+			"share_url": "",
+			"image_url": "",
+			"title": "福袋活动"
+		}
+	
+]
