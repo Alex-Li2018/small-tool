@@ -1,0 +1,106 @@
+{
+    "pages": [
+        {
+            "id": "index",
+            "path": "pages/index",
+            "title": "首页"
+        },
+        {
+            "id": "house",
+            "path": "pages/house/index",
+            "title": "找房"
+        },
+        {  
+            "id": "map",
+            "path": "pages/map/index",
+            "title": "学区地图"
+        },
+        {
+            "id": "im",
+            "path": "pages/im/index",
+            "title": "消息"
+        },
+        {
+            "id": "me",
+            "path": "pages/me/index",
+            "title": "我的"
+        }
+    ],
+    "subPackages": [
+        {
+            "id": "activity",
+            "path": "subPackages/activity",
+            "title": "活动"
+        },
+        {
+            "id": "home-s",
+            "path": "subPackages/home",
+            "title": "首页二级页面"
+        },
+        {
+            "id": "search-s",
+            "path": "subPackages/index",
+            "title": "搜索"
+        },
+        {
+            "id": "webview",
+            "path": "subPackages/webView",
+            "title": "webView"
+        },
+        {
+            "id": "me-s",
+            "path": "subPackages/me",
+            "title": "我的二级页面"
+        },
+        {
+            "id": "school-s",
+            "path": "subPackages/schoolDetail",
+            "title": "学校"
+        },
+        {
+            "id": "house-s",
+            "path": "subPackages/houseDetail",
+            "title": "小区"
+        },
+        {
+            "id": "comment-s",
+            "path": "subPackages/comment",
+            "title": "评论"
+        },
+        {
+            "id": "schedule-s",
+            "path": "subPackages/schedule",
+            "title": "日程"
+        },
+        {
+            "id": "feedback",
+            "path": "subPackages/feedback",
+            "title": "反馈"
+        },
+        {
+            "id": "tool",
+            "path": "subPackages/tool",
+            "title": "工具"
+        },
+        {
+            "id": "compare",
+            "path": "subPackages/compare",
+            "title": "对比"
+        },
+        {
+            "id": "trainingOrganization",
+            "path": "subPackages/trainingOrganization",
+            "title": "机构"
+        },
+        {
+            "id": "im-s",
+            "path": "subPackages/im",
+            "title": "消息"
+        },
+        {
+            "id": "uiDooring",
+            "path": "subPackages/uiDooring",
+            "title": "ui配置中心"
+        }
+    ]
+}
