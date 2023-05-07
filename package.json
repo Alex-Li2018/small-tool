@@ -20,6 +20,6 @@
     },
     "homepage": "https://github.com/Alex-Li2018/small-tool#readme",
     "dependencies": {
-        "axios": "^0.21.1"
+        "axios": "^0.21.2"
     }
 }
